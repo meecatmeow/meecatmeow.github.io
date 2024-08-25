@@ -1,10 +1,27 @@
 ---
-layout: post
-author: Julie Chua
-title: "Applied Data Science Project Documentation"
-categories: ITD214
+Layout: post
+Author: Julie Chua
+Title: "Applied Data Science Project Documentation"
+Categories: ITD214
 ---
-## $${\color{blue}Project Background}$$
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Background</title>
+    <style>
+        .blue-text {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blue-text">Project Background</h1>
+</body>
+</html>
+
+## Project Background
 As a member of a support group, we aim to set up an online support system to improve emotional support and provide a sense of community and anonymity to those taking part and seeking help.
 The online community allows individuals who feels lonely or socially isolated to connect with others experiencing similar challenges and share coping strategies.
 By understanding user needs, preferences, and behaviours of the R/foreveralone community, we can optimize the platform's content to better meet their expectations. 
@@ -18,10 +35,10 @@ S/N| Business Objectives   | Member In Charge
 3  | Determine the likelihood of depression in users based on their demographic and behavioural attributes | Ken
 4  | Interpret the predominant emotions and overall sentiment expressed within the r/ForeverAlone community to understand the struggles and motivation of the users. | Jerry
 
-## $${\color{blue}Project Timeline}$$
+## Project Timeline
 ![Project Timeline](https://github.com/user-attachments/assets/397561ec-046e-4169-bd18-70451354e29a)
 
-## $${\color{blue}Work Accomplished}$$
+## Work Accomplished
 Business objectives 1 and 3 are using the same dataset, therefore common data pre-processing steps were used.
 
 ### Data Preparation
@@ -50,7 +67,7 @@ B.  Further Data Pre-processing steps to facilitate clustering model building
 3. Determination of cluster centers in order to identify profiles
    - common characteristics emerged: male, straight, Caucasian
 
-## $${\color{blue}Recommendation and Analysis}$$
+## Recommendation and Analysis
 The analysis focused on understanding demographic patterns within the dataset using clustering techniques. By examining the clusters formed based on the demographic features, we identified distinct groups that could provide insights into different profiles. The clear separations seen in the pair-plots for 'income', 'employment', and 'edu_level_cleaned' suggest that these features play a significant role in defining the clusters.
 Based on the clustering analysis, we recommend further exploring the relationships between these key demographic features and other variables that were initially removed, such as behavioral and psychological states. Understanding how these clusters differ in their behaviors or psychological traits could provide deeper insights and more targeted strategies for engagement or intervention.
 
@@ -67,12 +84,11 @@ Influence Partnerships  | Through influencers who shared similar experiences or 
 Messaging and Tone      | Empowering Language to be used, focusing on growth, self-improveent and well-being over appearance
 Product Alignment       | Tailored Fitness Programs designed for overwreight individuals
 
-Future work could also focus on refining the clustering model, perhaps by experimenting with different clustering algorithms or incorporating additional demographic or behavioral features to enhance the understanding of group dynamics.
+Future work could also focus on refining the clustering model, perhaps by experimenting with different clustering algorithms or incorporating additional demographic or behavioral features to enhance the understanding of group dynamics. We can also re-analyze new membership numbers after a few months to review the effectiveness of the social marketing proposal.
 
-## $${\color{blue}AI Ethics}$$
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
+## AI Ethics
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
-## $${\color{blue}Source Codes and Datasets}$$
+
+## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the link here. 
