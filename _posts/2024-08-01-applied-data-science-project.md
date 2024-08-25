@@ -71,8 +71,22 @@ Product Alignment       | Tailored Fitness Programs designed for overwreight ind
 Future work could also focus on refining the clustering model, perhaps by experimenting with different clustering algorithms or incorporating additional demographic or behavioral features to enhance the understanding of group dynamics. We can also re-analyze new membership numbers after a few months to review the effectiveness of the social marketing proposal.
 
 ## AI Ethics
+This project works with sensitive personal data, such as demographic information, income, and psychological states, and could potentially raise significant privacy concerns. Let us consider the following areas.
 
+### Privacy and Confidentiality
+To ensure PDPA is adhered to, it is crucial to ensure that all data is anonymized so no personal identifiable information is exposed. Access to original data should be secured and limited to avoid privacy breaches, putting individuals at risk of misuse of their data.
 
+### Fairness and Bias
+Clustering is based on eight demographic features in this project. If the model is trained on biased data, it may reinforce stereotypes or lead to discriminatory preferences. i.e. A high concentration of 20-25 age group was observed at the start of the data pre-processing, and straight Caucasian male was also identified through the cluster identification. The data is heavily represented by young straight Caucasian males which could result in a skewed conclusion being tied to this group of individuals. We have to continuously monitor and evaluate the model's performance across different demographic groups so as to maintain fair treatment to all groups.
+
+### Accuracy of Interpretation
+Clusters might be wrongly used to make assumptions about individuals or groups. In this project, we could end up doing a social marketing program for a wrongly identified target group. This could result in wastage of resources in developing and implementing the program. Therefore the limitations of the model and its findings have to be clearly communicated. Whenever use, context and caution in interpreting the results have to be provided, emphasizing that clustering does not imply justification for discriminatory actions.
+
+### Accountability and Transparency
+Data science projects should be transparent about methodologies, data sources, and decision-making processes. We should main open communication with stakeholders about the projects's methodologies, goals, and findings. Thereafter establish accountability mechanisms to address any ethical concerns or unintended consequences.
+
+### Informed Consent
+Data used in this project must have been collected with explicit consent, where participants are fully aware of how their data will be used, stored, and shared. Using data without consent or repurposing for different objectives than originally intended would violate ethical standards and legal requirements.
 
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the link here. 
