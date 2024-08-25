@@ -89,4 +89,6 @@ Data science projects should be transparent about methodologies, data sources, a
 Data used in this project must have been collected with explicit consent, where participants are fully aware of how their data will be used, stored, and shared. Using data without consent or repurposing for different objectives than originally intended would violate ethical standards and legal requirements.
 
 ## Source Codes and Datasets
-Upload your model files and dataset into a GitHub repo and add the link here. 
+Data preprocessing and model python files, and dataset can be found in GitHub repo link here https://github.com/meecatmeow/ITD214_project.
+
+Thank you for your attention.
